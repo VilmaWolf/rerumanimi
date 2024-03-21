@@ -1,0 +1,33 @@
+{
+  "name": "rerumanimi",
+  "version": "1.0.0",
+  "description": "Automagically generates command-line interfaces (CLI) for any module. Expected options and help sections are created automatically based on parameters names, with support to async. It can be installed globally, in order to *execute* any module, or .js file, via CLI.",
+  "main": "lib/magicli.js",
+  "bin": "bin/cli.js",
+  "author": "RosendoWolff",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VilmaWolf/rerumanimi.git"
+  },
+  "keywords": [
+    "tempore",
+    "dolores",
+    "async",
+    "simple",
+    "voluptas",
+    "quam"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "cliss": "0.0.8",
+    "find-up": "^2.1.0",
+    "for-each-property": "0.0.4",
+    "inspect-property": "0.0.7"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/VilmaWolf/rerumanimi.git/issues"
+  }
+}
